@@ -1,0 +1,250 @@
+/* Submit buttons */
+
+input[type="submit"].btn-w {
+	height: 22px;
+	width: 181px;
+	border: 0px;
+	color: white;
+	padding-bottom: 2px;
+	font-family: sans, Arial;
+	font-size: 11px;
+}
+
+input[type="submit"].btn-m {
+	height: 22px;
+	width: 135px;
+	border: 0px;
+	color: white;
+	padding-bottom: 2px;
+	font-family: sans, Arial;
+	font-size: 11px;
+}
+
+input[type="submit"].btn-s {
+	height: 22px;
+	width: 87px;
+	border: 0px;
+	color: white;
+	padding-bottom: 2px;
+	font-family: sans, Arial;
+	font-size: 11px;
+}
+
+/* Sumbit button background images and hover effects */
+input[type="submit"].btn-s.red { background: url("../images/new/btn-red-small.png"); }
+input[type="submit"].btn-s.red:hover { background: url("../images/new/btn-red-small-hover.png"); }
+input[type="submit"].btn-m.red { background: url("../images/new/btn-red-med.png"); }
+input[type="submit"].btn-m.red:hover { background: url("../images/new/btn-red-med-hover.png"); }
+input[type="submit"].btn-w.red { background: url("../images/new/btn-red-wide.png"); }
+input[type="submit"].btn-w.red:hover { background: url("../images/new/btn-red-wide-hover.png"); }
+
+input[type="submit"].btn-s.blue { background: url("../images/new/btn-blue-small.png"); }
+input[type="submit"].btn-s.blue:hover { background: url("../images/new/btn-blue-small-hover.png"); }
+input[type="submit"].btn-m.blue { background: url("../images/new/btn-blue-med.png"); }
+input[type="submit"].btn-m.blue:hover { background: url("../images/new/btn-blue-med-hover.png"); }
+input[type="submit"].btn-w.blue { background: url("../images/new/btn-blue-wide.png"); }
+input[type="submit"].btn-w.blue:hover { background: url("../images/new/btn-blue-wide-hover.png"); }
+
+input[type="submit"].btn-s.black { background: url("../images/new/btn-black-small.png"); }
+input[type="submit"].btn-s.black:hover { background: url("../images/new/btn-black-small-hover.png"); }
+input[type="submit"].btn-m.black { background: url("../images/new/btn-black-med.png"); }
+input[type="submit"].btn-m.black:hover { background: url("../images/new/btn-black-med-hover.png"); }
+input[type="submit"].btn-w.black { background: url("../images/new/btn-black-wide.png"); }
+input[type="submit"].btn-w.black:hover { background: url("../images/new/btn-black-wide-hover.png"); }
+
+input[type="submit"].btn-s.green { background: url("../images/new/btn-green-small.png"); }
+input[type="submit"].btn-s.green:hover { background: url("../images/new/btn-green-small-hover.png"); }
+
+input[type="submit"].btn-m.grey { background: url("../images/new/btn-grey-med.png"); }
+input[type="submit"].btn-m.grey:hover { background: url("../images/new/btn-grey-med-hover.png"); }
+
+/* A Tags */
+a.btn-w {
+	display:block;
+	line-height: 22px;
+	height: 22px;
+	width: 181px;
+	vertical-align: middle;
+	text-align: center;
+	outline: none;
+	border: 0px;
+	color: white;
+}
+
+a.btn-m {
+	display:block;
+	line-height: 22px;
+	height: 22px;
+	width: 135px;
+	vertical-align: middle;
+	text-align: center;
+	outline: none;
+	border: 0px;
+	color: white;
+}
+
+a.btn-s {
+	display:block;
+	line-height: 22px;
+	height: 22px;
+	width: 87px;
+	vertical-align: middle;
+	text-align: center;
+	outline: none;
+	border: 0px;
+	color: white;
+}
+
+a.btn-s.red { background: url("../images/new/btn-red-small.png"); }
+a.btn-s.red:hover { background: url("../images/new/btn-red-small-hover.png"); }
+a.btn-s.red:focus { background: url("../images/new/btn-red-small-hover.png"); }
+
+a.btn-m.red { background: url("../images/new/btn-red-med.png"); }
+a.btn-m.red:hover { background: url("../images/new/btn-red-med-hover.png"); }
+a.btn-m.red:focus { background: url("../images/new/btn-red-med-hover.png"); }
+
+a.btn-w.red { background: url("../images/new/btn-red-wide.png"); }
+a.btn-w.red:hover { background: url("../images/new/btn-red-wide-hover.png"); }
+a.btn-w.red:focus { background: url("../images/new/btn-red-wide-hover.png"); }
+
+a.btn-s.black { background: url("../images/new/btn-black-small.png"); }
+a.btn-s.black:hover { background: url("../images/new/btn-black-small-hover.png"); }
+a.btn-s.black:focus { background: url("../images/new/btn-black-small-hover.png"); }
+
+a.btn-m.black { background: url("../images/new/btn-black-med.png"); }
+a.btn-m.black:hover { background: url("../images/new/btn-black-med-hover.png"); }
+a.btn-m.black:focus { background: url("../images/new/btn-black-med-hover.png"); }
+
+a.btn-w.black { background: url("../images/new/btn-black-wide.png"); }
+a.btn-w.black:hover { background: url("../images/new/btn-black-wide-hover.png"); }
+a.btn-w.black:focus { background: url("../images/new/btn-black-wide-hover.png"); }
+
+a.btn-s.blue { background: url("../images/new/btn-blue-small.png"); }
+a.btn-s.blue:hover { background: url("../images/new/btn-blue-small-hover.png"); }
+a.btn-s.blue:focus { background: url("../images/new/btn-blue-small-hover.png"); }
+
+a.btn-m.blue { background: url("../images/new/btn-blue-med.png"); }
+a.btn-m.blue:hover { background: url("../images/new/btn-blue-med-hover.png"); }
+a.btn-m.blue:focus { background: url("../images/new/btn-blue-med-hover.png"); }
+
+a.btn-w.blue { background: url("../images/new/btn-blue-wide.png"); }
+a.btn-w.blue:hover { background: url("../images/new/btn-blue-wide-hover.png"); }
+a.btn-w.blue:focus { background: url("../images/new/btn-blue-wide-hover.png"); }
+
+a.btn-s.teal { background: url("../images/new/btn-teal-small.png"); }
+a.btn-s.teal:hover { background: url("../images/new/btn-teal-small-hover.png"); }
+a.btn-s.teal:focus { background: url("../images/new/btn-teal-small-hover.png"); }
+
+a.btn-m.teal { background: url("../images/new/btn-teal-med.png"); }
+a.btn-m.teal:hover { background: url("../images/new/btn-teal-med-hover.png"); }
+a.btn-m.teal:focus { background: url("../images/new/btn-teal-med-hover.png"); }
+
+a.btn-w.teal { background: url("../images/new/btn-teal-wide.png"); }
+a.btn-w.teal:hover { background: url("../images/new/btn-teal-wide-hover.png"); }
+a.btn-w.teal:focus { background: url("../images/new/btn-teal-wide-hover.png"); }
+
+
+
+/**************************** Old ****************************/
+
+input[type="checkbox"], input[type="radio"] {
+    border: 0px;
+}
+
+
+input[type="button"].btn-w {
+	height: 22px;
+	width: 181px;
+	border: 0px;
+	color: white;
+	padding-bottom: 2px;
+	font-family: sans, Arial;
+	font-size: 11px;
+}
+
+input[type="button"].btn-m {
+	height: 22px;
+	width: 135px;
+	border: 0px;
+	color: white;
+	padding-bottom: 2px;
+	font-family: sans, Arial;
+	font-size: 11px;
+}
+
+input[type="button"].btn-s {
+	height: 22px;
+	width: 87px;
+	border: 0px;
+	color: white;
+	padding-bottom: 2px;
+	font-family: sans, Arial;
+	font-size: 11px;
+}
+
+input[type="button"].btn-w.blue {
+	background: url("../images/new/btn-blue-wide.png");
+}
+
+input[type="button"].btn-m.blue {
+	background: url("../images/new/btn-blue-med.png");
+}
+
+input[type="button"].btn-s.blue {
+	background: url("../images/new/btn-blue-small.png");
+}
+input[type="button"].btn-w.black {
+	background: url("../images/new/btn-black-wide.png");
+}
+
+input[type="button"].btn-m.black {
+	background: url("../images/new/btn-black-med.png");
+}
+
+input[type="button"].btn-m.grey {
+	background: url("../images/new/btn-grey-med.png");
+}
+
+input[type="button"].btn-s.grey {
+	background: url("../images/new/btn-grey-small.png");
+}
+
+input[type="button"].btn-s.black {
+	background: url("../images/new/btn-black-small.png");
+}
+
+input[type="button"].btn-s.green {
+	background: url("/images/new/btn-green-small.png");
+}
+
+input[type="button"].btn-s.red {
+	background: url("../images/new/btn-red-small.png");
+}
+
+input[type="button"].btn-w.black:hover {
+	background: url("../images/new/btn-black-wide-hover.png");
+}
+
+input[type="button"].btn-s.black:hover {
+	background: url("../images/new/btn-black-small-hover.png");
+}
+
+input[type="button"].btn-m.black:hover {
+	background: url("../images/new/btn-black-med-hover.png");
+}
+
+input[type="button"].btn-m.grey:hover {
+	background: url("../images/new/btn-grey-med-hover.png");
+}
+
+input[type="button"].btn-s.grey:hover {
+	background: url("../images/new/btn-grey-small-hover.png");
+}
+
+input[type="button"].btn-s.green:hover {
+	background: url("../images/new/btn-green-small-hover.png");
+}
+
+input[type="button"].btn-s.red:hover {
+        background: url("../images/new/btn-red-small-hover.png");
+}

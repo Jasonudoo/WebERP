@@ -1,0 +1,52 @@
+/* The preLoadedImages class is a css trick to allow us to preload images without using js. */
+/* If you add an image here that need to have preloaded when the page loads you need to add it to the bottom of footer.tpl as well */
+.preLoadedImages {display:none;} 
+
+
+/* CSS declarations for the menu */
+a.homeTab { display: block; background:url('../images/new/tab-home.gif') center top no-repeat; width: 35px; height: 35px; }
+a.homeTab:hover { display: block; background:url('../images/new/tab-home-hover.gif') center top no-repeat; width: 35px; height: 35px; }
+
+a.managedTab { display: block; background:url('../images/new/tab-managed.gif') center top no-repeat; width: 157px; height: 35px; }
+a.managedTab:hover { display: block; background:url('../images/new/tab-managed-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+a.managedTabSelected { display: block; background:url('../images/new/tab-managed-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+
+a.dedicatedTab { display: block; background:url('../images/new/tab-dedicated.gif') center top no-repeat; width: 157px; height: 35px; }
+a.dedicatedTab:hover { display: block; background:url('../images/new/tab-dedicated-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+a.dedicatedTabSelected { display: block; background:url('../images/new/tab-dedicated-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+
+a.cloudTab { display: block; background:url('../images/new/tab-cloud.gif') center top no-repeat; width: 157px; height: 35px; }
+a.cloudTab:hover { display: block; background:url('../images/new/tab-cloud-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+a.cloudTabSelected { display: block; background:url('../images/new/tab-cloud-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+
+a.myAccountTab { display: block; background:url('../images/new/tab-myAccount.gif') center top no-repeat; width: 157px; height: 35px; }
+a.myAccountTab:hover { display: block; background:url('../images/new/tab-myAccount-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+a.myAccountTabSelected { display: block; background:url('../images/new/tab-myAccount-hover.gif') center top no-repeat; width: 157px; height: 35px; }
+
+.spacerTab { width: 100%; background-image: url('../images/new/tab-bg.gif') }
+
+td.menuSpacer { width: 30px; }
+td.menuBG_managed { background-image: url('../images/new/bar-managed.gif'); }
+td.menuBG_dedicated { background-image: url('../images/new/bar-dedicated.gif'); }
+td.menuBG_cloud { background-image: url('../images/new/bar-cloud.gif'); }
+td.menuBG_my-account { background-image: url('../images/new/bar-myAccount.gif'); }
+
+a.menuLinks { color: white; padding: 10px 0px 10px 20px; display: block; }
+
+table.subMenuHeading { z-index: 2000; width: 162px; border-collapse: collapse; position: absolute; text-align: left; }
+
+.subMenuItem { vertical-align: middle; font-size: 11px; display: block; padding: 0px 0px 0px 20px; height: 35px; line-height: 35px; }
+
+.subMenuItem a { color: #fff; display: block; }
+
+.submenuItem_managed { background:url('../images/new/submenu-managed-normal-bg.png') repeat-x top left; }
+.submenuItem_managed:hover { background:url('../images/new/submenu-managed-hover-bg.png') repeat-x top left; }
+
+.submenuItem_dedicated { background:url('../images/new/submenu-dedicated-normal-bg.png') repeat-x top left; }
+.submenuItem_dedicated:hover { background:url('../images/new/submenu-dedicated-hover-bg.png') repeat-x top left; }
+
+.submenuItem_cloud { background:url('../images/new/submenu-cloud-normal-bg.png') repeat-x top left; }
+.submenuItem_cloud:hover { background:url('../images/new/submenu-cloud-hover-bg.png') repeat-x top left; }
+
+.submenuItem_my-account { background:url('../images/new/submenu-my-account-normal-bg.png') repeat-x top left; }
+.submenuItem_my-account:hover { background:url('../images/new/submenu-my-account-hover-bg.png') repeat-x top left; }
